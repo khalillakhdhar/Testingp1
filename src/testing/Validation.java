@@ -25,5 +25,11 @@ public class Validation {
 			return false;
 
 	}
+	public boolean paire(int p)
+	{
+		
+		return p%2==0;
+	}
+	
 
 }
