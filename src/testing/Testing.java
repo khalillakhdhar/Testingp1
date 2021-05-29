@@ -22,9 +22,13 @@ public void testchaine()
 @Test
 public void testparite()
 {
-assertEquals(true,valider.paire(15));	
+assertEquals(true,valider.paire(12));	
 }
-	
+@Test
+public void verifpoid()
+{
+assertEquals(true, valider.verifPoid(70));
+}
 	
 	
 }
