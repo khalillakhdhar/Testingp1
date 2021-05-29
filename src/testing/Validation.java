@@ -16,5 +16,13 @@ public class Validation {
 		return a>b;
 		
 	}
+	public boolean different(int a,int b)
+	
+	{
+		if(a!=b)
+			return true;
+		else return false;
+		
+	}
  
 }
