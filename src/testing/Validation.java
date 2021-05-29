@@ -11,5 +11,10 @@ public class Validation {
 		return Integer.parseInt(x);
 		
 	}
-
+	public boolean compare(int a,int b)
+	{
+		return a>b;
+		
+	}
+ 
 }
