@@ -5,7 +5,15 @@ public class Validation {
 		return b != 0;
 
 	}
+	public boolean verifPoid(int poid)
+	{
+		return poid>30;
+	}
+public boolean veriftaille(double taille)
+{
+return taille>1.3;	
 
+}
 	public int convert(String x) {
 		return Integer.parseInt(x);
 
@@ -30,6 +38,9 @@ public class Validation {
 		
 		return p%2==0;
 	}
-	
+	public boolean verifchaine(String ch)
+	{
+		return !ch.isBlank();
+	}
 
 }
