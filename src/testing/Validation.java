@@ -6,6 +6,10 @@ public class Validation {
 	return b!=0;	
 	
 	}
-	
+	public int convert(String x)
+	{
+		return Integer.parseInt(x);
+		
+	}
 
 }
